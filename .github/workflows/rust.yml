@@ -11,7 +11,7 @@ env:
 
 jobs:
   build:
-
+    name: Build Rust Application
     runs-on: ubuntu-latest
 
     steps:
