@@ -1,0 +1,15 @@
+[package]
+name = "c-urchin-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.79"
+c-urchin = { version = "0.1.0", path = "../c-urchin" }
+clap = { version = "4.4.18", features = ["derive"] }
+
+[[bin]]
+path = "src/main.rs"
+name = "c-urchin"
